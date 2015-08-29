@@ -1,4 +1,13 @@
 extends ../layout
 
 block content
-    h1 THIS IS PHOTO #{id}
+    h1 WHICH KOREA?
+    .main-photo-container
+        img(src="/images/photos/#{id}.jpg", height="250")
+    //- p THIS IS PHOTO #{id}
+
+    .photos
+        button.nk(href="")
+            img(src="/images/flags/nk-flag.jpg")
+        button.sk(href="")
+            img(src="/images/flags/sk-flag.jpg", height="169", width="300")

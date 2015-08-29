@@ -14,7 +14,37 @@ a {
   color: #00B7FF;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
 .description {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.main-photo-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.main-photo-container img {
+    margin: 0 auto;
+    display: block;
+}
+
+.main-photo {
+
+}
+
+.photos {
     margin: 0 auto;
     width: 50%;
 }
